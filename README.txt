@@ -12,7 +12,7 @@ The other side of the module has a 2x6 pin header for plugging
 into an FPGA board, compatible with the Digilent Pmod specification.
 
 For more details, see the user manual
-https://github.com/jorisvr/hw-sma-plug/sma2_plug_v2/doc/manual.pdf
+https://github.com/jorisvr/hw-sma-plug/blob/master/sma2_plug_v2/doc/manual.pdf
 
 The SMA2 Plug is an open hardware design. This repository contains
 the complete KiCad design files and design documents for the module.
