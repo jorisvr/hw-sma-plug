@@ -1,0 +1,20 @@
+
+Bill of materials for SMA2 Plug v2
+==================================
+
+  qty  manufacturer + part nr          description                  package   Farnell  Conrad   refdes
+  ---  ----------------------          -----------                  --------  -------  -------  ------
+    2  Nexperia 74LVC126AD             quad logic buffer 74LVC126   SOIC-14   1631665           U1,U2
+    2  KEMET C0805C105K3RAC            capacitor 1uF 25V X7R        0805      1637035  458056   C1,C3
+    2  KEMET C0805C104J5RAC            capacitor 100nF 50V X7R      0805      1414663  458028   C2,C4
+    6  Bourns CR0805-JW-103ELF         resistor 10 kOhm             0805      2008390  1055517  R1,R2,R7,R9,R10,R15
+    8  Multicomp MP000066              resistor 33 Ohm 250 mW       0805      3127836           R3,R4,R5,R6,R11,R12,R13,R14
+    2  Bourns CRM1206-FX-51R0ELF       resistor 51 Ohm 500 mW       1206      1865251           R8,R16
+    2  Samtec SMA-J-P-H-ST-EM1         SMA connector edge-mount               2856818           J1,J2
+    1  Wurth 61301221021               male pin header 2x6 angled   2.54rm    2356197  1898789  J3
+    2                                  male pin header 1x3 straight 2.54rm    3226003  1581014  JP1,JP2
+    2                                  jumper bridge 2.54rm                   2834673  1303885
+
+NOTE: R8, R16 must be rated for at least 500 mW.
+NOTE: R6, R14 must be rated for at least 250 mW.
+
